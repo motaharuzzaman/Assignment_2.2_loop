@@ -28,14 +28,36 @@ Problem 3: Find Prime Numbers Write a Python program that finds and prints all
 prime numbers within a given range (from start to end). Use a for loop to check
 each number in the range for primality.
 """
-start = int(input('Enter the start number:'))
-end = int(input('Enter the end number: '))
-print("The Prime numbers are:")
+# start = int(input('Enter the start number:'))
+# end = int(input('Enter the end number: '))
 
-for num in range(start, end+1):
-    if num>1:
-        for i in range(2,num):
-            if (num % i) == 0:
-                break
-        else:
-            print(num)
+# print("The Prime numbers are:")
+
+# for num in range(start, end+1):
+#     if num>1:
+#         for i in range(2,num):
+#             if (num % i) == 0:
+#                 break
+#         else:
+#             print(num)
+
+"""
+Problem 4: Guess the Number Game Write a Python program that generates a
+random number between 1 and 100 and asks the user to guess it. Use a while loop to
+continue prompting the user until they guess correctly.
+"""
+# import random
+# target_num = random.randint(1,100)
+# guess=None
+# totalattempts=0
+
+# while guess!=target_num:
+#     guess = int(input("Guess a number from 1 to 100: "))
+#     totalattempts+=1
+#     if guess>target_num:
+#         print("Enter the number less than",guess)
+#     elif guess<target_num:
+#         print("Please enter the number greater than", guess)
+    
+# print(f"You have reached the target in {totalattempts} attemps")
+
