@@ -61,3 +61,14 @@ continue prompting the user until they guess correctly.
     
 # print(f"You have reached the target in {totalattempts} attemps")
 
+"""
+Problem 5: Reverse a Number Write a Python program that takes an integer as input
+and reverses its digits. Use a while loop to perform the digit reversal.
+"""
+num=int(input('Enter an integer: '))
+revnum=0
+while num>0:
+    digit=num%10
+    revnum=revnum*10+digit
+    num=num//10
+print(revnum)
