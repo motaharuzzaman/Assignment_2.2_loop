@@ -71,4 +71,4 @@ while num>0:
     digit=num%10
     revnum=revnum*10+digit
     num=num//10
-print(revnum)
+print(f"The reversed number is {revnum}")
